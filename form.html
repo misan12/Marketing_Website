@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wearables™</title>
+    <link rel="stylesheet" href="form-style.css">
+    <script src="https://kit.fontawesome.com/911500f635.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header>
+        <h1 class="logo">Wearables™</h1>
+        <nav>
+            <ul class="nav_links" type="none">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About-us Page.html">About</a></li>
+                <li><a href="#">Features</a></li>
+            </ul>
+        </nav>
+        <a href="#" class="cta"><button class="Contact_btn">Sign up</button></a>
+    </header>
+
+    <div class="wrapper active">
+        <div>
+            <div class="form-box login">
+                <h2>Login</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </span>
+                        <input type="email" class="login_email"  required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon">
+                            <i class="fa-solid fa-lock"></i>
+                        </span>
+                        <input type="password" class="login_password" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">Remember me</label>
+                        <a href="#">Forgot password?</a>
+                    </div>
+                    <button type="submit" class="btn" id="login_btn" onclick="log">Login</button>
+                    <div class="login-register">
+                        <p>Don't have an account? <a href="#" class="register-link">Register</a></p>
+                    </div>
+                </form>
+            </div>
+
+            <div class="form-box register">
+                <h2>Register</h2>
+                <form action="#" class="form_">
+                    <div class="input-box">
+                        <span class="icon">
+                            <i class="fa-solid fa-user"></i>
+                        </span>
+                        <input type="text" class="username" id="user" required>
+                        <label>Username</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </span>
+                        <input type="email" class="email" id="mail" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon">
+                            <i class="fa-solid fa-lock"></i>
+                        </span>
+                        <input type="password" class="password" id="pass" required>
+                        <label>Password</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">I agree to the terms & conditions</label>
+                    </div>
+                    <button type="submit" class="btn" id="register-btn" onclick="reg">Register</button>
+                    <div class="login-register">
+                        <p>Already have an account? <a href="#" class="Login-link">Login</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="end">
+        <div class="foot_layout">
+            <h2>Wearables™</h2>
+        </div>
+        <div class="htl_parent">
+            <p class="htl">Follow us on</p>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-youtube"></i>
+        </div>
+        <div class="call_to_action">
+            Subscribe to our newsletter for more information.
+            <form action="#" class="_form">
+                <div class="input-box2">
+                    <span class="icon">
+                        <i class="fa-solid fa-envelope"></i>
+                    </span>
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <button type="submit" class="btn2">Register</button>
+            </form>
+        </div>
+        </div>
+        <hr>
+        <p class="end_text">copyrighted 2023.</p>
+    </footer>
+    
+    <script src="main.js"></script>
+</body>
+</html>
