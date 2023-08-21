@@ -6,6 +6,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    opacity: 1;
     transition: 0.6s;
 }
 header h1, li , a{
@@ -361,13 +362,17 @@ form{
 
 footer i{
     font-size: 20px;
-    padding-left: 10px;
+    /* padding-left: 10px; */
 }
 
 footer .htl{
-    padding-left: 20px;
     margin-bottom: 10px;
 }
+
+.htl_parent i{
+    text-align: center;
+}
+
 .sponsor_img img{
     width: 10%;
     height: auto;
@@ -402,3 +407,8 @@ footer .htl{
     background: linear-gradient(#642bff, #ff22e6);
 }
 
+
+.call_to_action a{
+    font-weight: bold;
+    color: #fff;
+}
